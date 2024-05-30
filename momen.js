@@ -1,20 +1,16 @@
 //1.
 let carName = "Volvo";
-console.log(carName)
 
 //2
 let firstName = "John",
     lastName = "Doe",
     age = 35;
 
-console.log(firstName,lastName,age)
 
 // 3.
 let x = 10;
 let y = 5;
-x *= y;
-
-console.log(x);
+x *= y; // Ans: 50
 
 
 // 4.
@@ -25,9 +21,7 @@ const x1 = {
   lastName: "Doe"
 };    // object 
 
-console.log(typeof length);
-console.log(typeof lastName1);
-console.log(typeof x1);
+
 
 //5.
 function myFunction() {
@@ -56,9 +50,9 @@ alert(`There are ${cars.length} item in this array`)
 //8 ii.
 const Brand = ["Volvo", "Jeep", "Mercedes"]; 
 Brand[0] = "Ford";
-console.log(Brand)
 
-//9.i
+
+//9.i --> 1 to 10 random numbers
 const randomNum = Math.trunc(Math.random() * 10 + 1);
 console.log(randomNum)
 
