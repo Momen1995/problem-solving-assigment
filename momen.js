@@ -1,7 +1,6 @@
-//1.Create a variable called carName, assign the value Volvo to it.
+//1.
 let carName = "Volvo";
 console.log(carName)
-
 
 //2
 let firstName = "John",
@@ -10,9 +9,7 @@ let firstName = "John",
 
 console.log(firstName,lastName,age)
 
-
-/* 3. Use the correct assignment operator that will 
-result in x being 50 (same as x = x * y).  */
+// 3.
 let x = 10;
 let y = 5;
 x *= y;
@@ -20,7 +17,7 @@ x *= y;
 console.log(x);
 
 
-// 4.Use comments to describe the correct data type of the following variables:
+// 4.
 let length = 15 //number
 let lastName1 = "Johnshon"; //String
 const x1 = {
@@ -32,16 +29,13 @@ console.log(typeof length);
 console.log(typeof lastName1);
 console.log(typeof x1);
 
-//5. Execute the function named myFunction.
+//5.
 function myFunction() {
    alert("Hello World!");
 }
-
 myFunction()
 
-
-/*6. Create an object called person with name = John, age = 50, Then,
-   access the object to alert("John is 50"). */
+//6
 const person = {
   name : "John",
   age : 50,
@@ -55,14 +49,44 @@ alert(`${person.name} is ${person.age}`)
 //ans:  <button onclick="alert('hello hablu programmer')">Click me.</button> . I have done it in html. Please check it.
 
 
-//8 i. Alert the number of items in an array, using the correct Array property: 
+//8 i.
 const cars = ["Volvo", "Jeep", "Mercedes"];
 alert(`There are ${cars.length} item in this array`)
 
-//ii. Change the first item of Brand to "Ford".
+//8 ii.
 const Brand = ["Volvo", "Jeep", "Mercedes"]; 
 Brand[0] = "Ford";
 console.log(Brand)
+
+//9.i
+const randomNum = Math.trunc(Math.random() * 10 + 1);
+console.log(randomNum)
+
+//9.ii
+function largestNum(n1,n2){
+  const largeNum = Math.max(n1,n2);
+  return largeNum;
+}
+console.log(largestNum(10,20))
+
+//9.iii
+console.log(Math.sqrt(9))
+
+//10.i
+x = 10;
+y = 5;
+
+alert(x > y);
+
+//10.ii
+function ageCalc(age){
+  const ageFind = age < 18 ? alert("Too young") : alert("Old enough");
+  return ageFind;
+}
+
+console.log(ageCalc(17));
+console.log(ageCalc(20));
+
 
 
 
