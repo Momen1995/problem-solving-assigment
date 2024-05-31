@@ -16,7 +16,7 @@ x *= y; // Ans: 50
 // 4.
 let length = 15 //number
 let lastName1 = "Johnshon"; //String
-const x1 = {
+const x = {
   firstName: "John",  
   lastName: "Doe"
 };    // object 
